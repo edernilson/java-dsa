@@ -9,7 +9,7 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] a = { 9, 7, 8, 3, 2, 1, 5, 4, 6 };
         int[] b = selectionSort(a);
-        System.out.println("After sorting:"+Arrays.toString(b));
+        System.out.println("Result selection sort:"+Arrays.toString(b));
     }
 
     public static int[] selectionSort(int[] arr) {
